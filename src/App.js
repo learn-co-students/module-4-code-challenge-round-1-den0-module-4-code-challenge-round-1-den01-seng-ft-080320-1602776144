@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BotsPage />
+        <BotsPage key={"bots-page"}/>
       </div>
     );
   }
